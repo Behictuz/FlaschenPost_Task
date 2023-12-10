@@ -9,11 +9,11 @@
 ## Run the tests using the following command:  
 
 1) if you want to run specific test, you can run the following scripts
-     a)npm run add_chart 
-     b)npm run fast_connection
-     c)npm run slow_connection
+     -npm run add_chart 
+     -npm run fast_connection
+     -npm run slow_connection
 2) if you want to run all test, you can run the following script    
-     a)npm run test_all
+     -npm run test_all
 
 ## Configuration
 WebdriverIO configurations are defined in wdio.conf.js. Modify this file to customize browser settings, devices, and other configurations.
@@ -21,10 +21,9 @@ WebdriverIO configurations are defined in wdio.conf.js. Modify this file to cust
 This project is currently configured to run tests in "incognito" mode. If you wish to disable this feature, you can modify the wdio.conf.js file and remove the "incognito" browser option.
                         *** TASK  ***
 flaschenpost SE – IT Exercise Task #XX „Create a set of automated tests“
-Task 1 “PLZ Modal”
-•
-•
-Write an automated test that will visit flaschenpost.de, enter a ZIP code (e.g. 48143), click
+1)Task 1 “PLZ Modal”
+
+-Write an automated test that will visit flaschenpost.de, enter a ZIP code (e.g. 48143), click
 “geht klar“ and validate that the user landed on the homepage.
 Take a moment to look at the requests and responses made when user lands on the website
 on a new incognito tab. Assuming the system is loading asynchronously, what could go
@@ -32,9 +31,10 @@ wrong with the test, if user has slow internet connection? (Hint: You might reco
 correspondence between the response of one of the initial requests and a user input)
 What could be done in order to avoid the flakiness described in the previous step?
 Implement your solution to avoid flakiness.
+
 •
 •
-Task 2 “Add to cart”
+2)Task 2 “Add to cart”
 •
 •
 Write a second automated test that will do what’s described in Task 1 and the following:
