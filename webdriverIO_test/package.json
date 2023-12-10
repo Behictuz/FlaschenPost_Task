@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_all": "npx wdio run ./wdio.conf.js --spec  ./features/slowConnection.feature  ./features/fastConnection.feature  ./features/addChart.feature",
+    "slow_connection": "npx wdio run ./wdio.conf.js --spec  ./features/slowConnection.feature",
+    "fast_connection": "npx wdio run ./wdio.conf.js --spec  ./features/fastConnection.feature",
+    "add_chart": "npx wdio run ./wdio.conf.js --spec  ./features/addChart.feature",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.23.0",
+    "@wdio/cli": "8.23.0",
+    "@wdio/cucumber-framework": "^8.23.0",
+    "@wdio/local-runner": "^8.23.0",
+    "@wdio/spec-reporter": "^8.23.0",
+    "webdriverio": "^8.24.1"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}
