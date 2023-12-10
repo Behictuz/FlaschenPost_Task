@@ -9,11 +9,18 @@
 ## Run the tests using the following command:  
 
 1) if you want to run specific test, you can run the following scripts
-     -npm run add_chart 
-     -npm run fast_connection
-     -npm run slow_connection
+     ```bash
+     npm run add_chart 
+     
+     ```bash
+     npm run fast_connection
+     
+     ```bash
+     npm run slow_connection
+
 2) if you want to run all test, you can run the following script    
-     -npm run test_all
+     ```bash
+     npm run test_all
 
 ## Configuration
 WebdriverIO configurations are defined in wdio.conf.js. Modify this file to customize browser settings, devices, and other configurations.
